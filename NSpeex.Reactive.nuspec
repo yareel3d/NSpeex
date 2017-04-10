@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.5">
+       <id>NSpeex.Reactive</id>
+       <version>0.0.1</version>
+       <title>NSpeex and Observer/Observable helper</title>
+       <authors>Yuka Abuno</authors>
+       <owners>Yuka Abuno</owners>
+     <licenseUrl>https://github.com/yuka1984/NSpeex/blob/master/LICENSE.txt</licenseUrl>
+     <projectUrl>https://github.com/yuka1984/NSpeex</projectUrl>
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>
+         NSpeexLibrary and Observer/Observable Helper
+       </description>
+       <summary>NSpeexLibrary and Observer/Observable Helper</summary>
+     <releaseNotes>
+     </releaseNotes>
+     <tags>xamarin, NSpeex</tags>
+     <dependencies>
+        <dependency id="Rx-Main" version="2.2.5" />
+    </dependencies>
+   </metadata>
+   <files>
+        <file src="src\NSpeex_LICENSE.txt" target="content" />
+        
+        <file src="Build\Windows\NSpeex.dll" target="lib\net4" />
+        <file src="Build\Windows\NSpeex.pdb" target="lib\net4" />
+        <file src="Build\Windows\NSpeex.Reactive.dll" target="lib\net4" />
+        <file src="Build\Windows\NSpeex.Reactive.pdb" target="lib\net4" /> 
+        
+        <file src="Build\Android\NSpeex.Droid.dll" target="lib\MonoAndroid10" />
+        <file src="Build\Android\NSpeex.Droid.pdb" target="lib\MonoAndroid10" />
+        <file src="Build\Android\NSpeex.Reactive.Droid.dll" target="lib\MonoAndroid10" />
+        <file src="Build\Android\NSpeex.Reactive.Droid.pdb" target="lib\MonoAndroid10" /> 
+        
+        <file src="Build\iOS\NSpeex.Touch.dll" target="lib\Xamarin.iOS10" />
+        <file src="Build\iOS\NSpeex.Touch.pdb" target="lib\Xamarin.iOS10" />
+        <file src="Build\iOS\NSpeex.Reactive.Touch.dll" target="lib\Xamarin.iOS10" />
+        <file src="Build\iOS\NSpeex.Reactive.Touch.pdb" target="lib\Xamarin.iOS10" /> 
+   </files>
+</package>
